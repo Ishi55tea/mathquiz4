@@ -1,0 +1,43 @@
+body
+{
+	
+	text-align: center;
+	background: rgb(183,0,255);
+background: linear-gradient(90deg, rgba(183,0,255,1) 0%, rgba(251,0,255,1) 25%, rgba(238,238,238,1) 51%, rgba(251,0,255,1) 75%, rgba(183,0,255,1) 100%);
+
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		margin-top: 30px;
+		margin-left: 420px;
+		margin-bottom: 20px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
